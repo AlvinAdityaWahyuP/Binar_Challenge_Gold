@@ -1,0 +1,21 @@
+tags :
+  - name : POST
+
+parameters :
+  - name : body
+    in : body
+    required : true
+
+responses:
+
+    '200':
+
+      description: Successful response
+
+    '400':
+
+      description: Bad Request
+
+    '500':
+
+      description: Internal Server Error
